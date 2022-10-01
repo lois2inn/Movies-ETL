@@ -2,12 +2,15 @@
 
 ## Overview
 
-The video team of a major movie and TV show streaming company has asked to provide a clean data set of movie data so as to predict the popular pictures. The tasks to be done are as follows:
+The video team of a major movie and TV show streaming company has asked to provide a clean data set of movie data so as to predict the popular pictures. An automated data pipeline that takes in data, performs the appropriate transformations, and loads the data into database needs to be created. The tasks to be done are as detailed below:
 - Extract data from three data sources: 
-  - Wikipedia for all movies released since 1990
-  - Kaggle metadata
-  - Ratings from  MovieLand’s website.
-- Transform data from both sources into one clean dataset
+  - Wikipedia for all movies released since 1990 (JSON format).
+  - Kaggle metadata (CSV format).
+  - Ratings from  MovieLand’s website (CSV format).
+- Transform data from both sources into one clean dataset using below iterative process.
+  - Inspect data and identify a problem.
+  - Plan to fix the problem.
+  - Execute the repair and go on to inspect another problem.
 - Load the data set into Movie database
 
 ## Resources
@@ -20,6 +23,7 @@ The video team of a major movie and TV show streaming company has asked to provi
 - Python 3.7.13
 - Pandas 1.3.5
 - PostgreSQL and pgAdmin
+- SQLalchemy 1.4.32
 
 ## Results
 
