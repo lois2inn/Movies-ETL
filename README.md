@@ -61,7 +61,7 @@ The video team of a major movie and TV show streaming company has asked to provi
   </tr>
 </table>
 
-- The transformed data is then loaded to POSTGRESQL database. The merged movie ratings data has 6052 rows.
+- The transformed data is then loaded to PostgreSQL database. The merged movie ratings data has 6,052 rows and ratings table has 26,024,289 rows.
 <table>
   <tr>
     <td><img src="Resources/movies_table.png" width="600"/></td>
