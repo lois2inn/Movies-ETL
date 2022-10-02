@@ -26,4 +26,34 @@ The video team of a major movie and TV show streaming company has asked to provi
 - SQLalchemy 1.4.32
 
 ## Results
+- The three data sources are extracted using Python and Pandas. The extracted data shows that Wiki movies has 193 columns in the data frame while Kaggle movies has 24 columns ad Kaggle ratings has 4 columns. The details are shown in the below images:
+<table>
+  <th>Wiki Movies</th>
+  <th>Kaggle Movies</th>
+  <th>Kaggle Ratings</th>
+  <tr>
+    <td><img src="Resources/wikipedia_extract.png" width="500"/></td>
+    <td><img src="Resources/kaggle_metadata.png" width="500"/></td>
+    <td><img src="Resources/ratings_extract.png" width="200"/></td>
+  </tr>
+</table>
 
+- The extracted data is cleaned and parsed using Regular Expressions. 
+  - Upon cleaning wiki movies, the column count reduced from 193 to 23 columns.
+  - The merged data set of wiki movies and Kaggle movies has 31 columns.
+  - The merged data of wiki and Kaggle movies and Kaggle ratings has 41 columns.
+ <table>
+  <tr>
+    <td><img src="Resources/wiki_movies_transform.png" width="600"/></td>
+    <td><img src="Resources/movies_wiki_kaggle.png" width="600"/></td>
+    <td><img src="Resources/movies_ratings.png" width="700"/></td>
+  </tr>
+</table>
+
+- The transformed data is then loaded to POSTGRESQL database. The merged movie ratings data has 6052 rows.
+<table>
+  <tr>
+    <td><img src="Resources/movies_table.png" width="600"/></td>
+    <td><img src="Resources/ratings_table.png" width="300"/></td>
+  </tr>
+</table>
