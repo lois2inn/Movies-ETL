@@ -30,11 +30,15 @@ The video team of a major movie and TV show streaming company has asked to provi
 <table>
   <th>Wiki Movies</th>
   <th>Kaggle Movies</th>
-  <th>Kaggle Ratings</th>
   <tr>
-    <td><img src="Resources/wikipedia_extract.png" width="500"/></td>
-    <td><img src="Resources/kaggle_metadata.png" width="500"/></td>
-    <td><img src="Resources/ratings_extract.png" width="200"/></td>
+    <td><img src="Resources/wikipedia_extract.png" width="800"/></td>
+    <td><img src="Resources/kaggle_metadata.png" width="800"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Kaggle Ratings</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="Resources/ratings_extract.png" width="400"/></td>
   </tr>
 </table>
 
@@ -43,10 +47,17 @@ The video team of a major movie and TV show streaming company has asked to provi
   - The merged data set of wiki movies and Kaggle movies has 31 columns.
   - The merged data of wiki and Kaggle movies and Kaggle ratings has 41 columns.
  <table>
+  <th>Transformed Wiki Movies</th>
+  <th>Merged Wiki and Kaggle Movies</th>
   <tr>
-    <td><img src="Resources/wiki_movies_transform.png" width="600"/></td>
-    <td><img src="Resources/movies_wiki_kaggle.png" width="600"/></td>
-    <td><img src="Resources/movies_ratings.png" width="700"/></td>
+    <td><img src="Resources/wiki_movies_transform.png" width="800"/></td>
+    <td><img src="Resources/movies_wiki_kaggle.png" width="800"/></td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center'> Merged Movies and Ratings</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center'><img src="Resources/movies_ratings.png" width="700"/></td>
   </tr>
 </table>
 
